@@ -5,8 +5,7 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome("C:\\Users\\zahid\\OneDrive\\Documents\\Automation\\assessment\\chromedriver.exe")
-    # context.browser = webdriver.Safari()
+    context.driver = webdriver.Chrome("/chromedriver.exe")
     # context.browser = webdriver.Firefox()
 
     context.driver.maximize_window()
